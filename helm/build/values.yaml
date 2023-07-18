@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-service
+  namespace: my-quarkus-service-dev
+  cluster: .apps.cluster-ckvl7.ckvl7.sandbox473.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-idp-demo/my-quarkus-service
+  org: janus-idp-demo
+  name: my-quarkus-service
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-service
+  tag: latest
